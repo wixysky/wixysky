@@ -1,0 +1,167 @@
+body {
+    background: linear-gradient(135deg, #000000, #01f7ff, #8c00ff, #800080);
+    animation: a 15s ease infinite;
+    color: #00ffbf; /* Цвет текста */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes a {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+.header {
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5, #2aab76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    display: flex;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    padding: 20px;
+    max-width: 91%;
+    margin: 0 auto;
+}
+
+.background-image {
+    background-image: url('https://media.licdn.com/dms/image/D4D12AQFw6P2L56fE4A/article-cover_image-shrink_720_1280/0/1657523324986?e=2147483647&v=beta&t=BMJDK_PXmjK9Ti_TZsxsv41mHbvnGUunJxSua7kgkEw');
+    background-size: cover;
+    background-position: center;
+    width: 1078px;
+    height: 720px;
+    margin: 20px auto;
+}
+
+.text-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.text-top {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    color: #00f7ff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.text-bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #00f7ff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.process {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Отступ снизу между секциями */
+}
+
+.process-image1 {
+    background-image: url('https://st3.depositphotos.com/24664374/35274/i/450/depositphotos_352749710-stock-photo-html-css-logos-programming-languages.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 337;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Отступ между изображениями */
+    color: rgb(0, 255, 234);
+}
+.p {
+    background-color: #000000be;
+    padding: 20px;
+}
+
+.process-image2 {
+    background-image: url('https://dif.telkomuniversity.ac.id/wp-content/uploads/2022/12/Screenshot-2022-12-07-154012.png');
+    background-size: cover;
+    background-position: center;
+    height: 415px;
+    width: 743px;
+    padding: 20px;
+    border-radius: 10px;
+    color: aqua;
+    display: flex;
+    align-items: flex-end;
+}
+
+.comment-form {
+    background-color: #428f68;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment-form textarea {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment-form button {
+    background-color: #f70000;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #5eff00;
+}
+
+.contact {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.contact p {
+    margin: 10px 0;
+}
+
+/* Адаптивность */
+@media
